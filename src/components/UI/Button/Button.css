@@ -1,0 +1,24 @@
+:local(.Button) {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+:local(.Button:first-of-type) {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+:local(.Success) {
+    color: #5C9210;
+}
+
+:local(.Danger) {
+    color: #944317;
+}
